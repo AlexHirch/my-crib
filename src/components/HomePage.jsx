@@ -41,9 +41,12 @@ const HomePage = () => {
                 </span>
                 <h3>Ответы:</h3>
                 <ol>
-                  <li>{i.answer1}</li>
-                  <li>{i.answer2}</li>
-                  <li>{i.answer3}</li>
+                  <li>{`${i.answer1}`}</li>
+                  <li>{`${i.answer2}`}</li>
+                  <li>!ЭТО НЕ ОТВЕТ А ОБЬЯСНЕНИЕ!
+                  <br />!BU JAVOB EMAS TUSHINTIRISH! 
+                  <br />
+                  {`${i.answer3}`}</li>
                 </ol>
               </div>
             </section>
