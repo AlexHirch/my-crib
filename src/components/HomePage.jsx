@@ -27,7 +27,7 @@ const HomePage = () => {
         </h2>
         <h3>ФЕРГАНСКИЙ ФИЛИАЛ</h3>
       </header>
-      {Base1.map((i, index) => {
+      {Base1.map((i) => {
         return (
           <section
             key={i.id}
